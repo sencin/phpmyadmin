@@ -1,0 +1,7 @@
+FROM phpmyadmin/phpmyadmin:latest
+
+ENV PMA_ARBITRARY=1
+
+ENV UPLOAD_LIMIT=256M
+
+EXPOSE 80
